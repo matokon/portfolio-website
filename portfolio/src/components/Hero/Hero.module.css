@@ -1,0 +1,158 @@
+@import "../../variables.css";
+
+/* GŁÓWNY CONTAINER */
+.container {
+  background-color: var(--dark-background);
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 64px 56px;
+
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  grid-template-areas:
+    "content hero"
+    "follow  hero"
+    "cvlabel hero"
+    "cvbtn   hero";
+  column-gap: 56px;
+  row-gap: 16px;
+
+  align-items: center;
+
+  color: var(--bright-text);
+  font-family: var(--font-sans);
+}
+
+/* LEWA KOLUMNA */
+.content { grid-area: content; }
+
+.title {
+  font-size: 56px;
+  line-height: 1.1;
+  font-weight: 900;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.02em;
+}
+
+.description {
+  font-size: 25px;
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+  max-width: 560px;
+}
+
+/* ZAOBSERWUJ MNIE + IKONY W JEDNEJ LINII */
+.followme {
+  grid-area: follow;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.followme a {
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.followme img {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.followme img:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+/* SEKCJA CV */
+.mycv {
+  grid-area: cvlabel;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.mycv a {
+  position: relative;
+  display: inline-flex;
+  width: 250px;
+  height: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+  line-height: 0;
+  text-decoration: none;
+  will-change: transform;
+  transition: transform .18s ease;
+}
+
+.mycv a:hover {
+  transform: translateY(-2px);
+}
+
+.mycv a:active {
+  transform: translateY(0);
+}
+
+.mycv img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+/* ZDJĘCIE PROFILOWE */
+.heroimage {
+  grid-area: hero;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--bright-background);
+  justify-self: center;
+}
+
+/* RESPONSYWNOŚĆ */
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 360px;
+    column-gap: 40px;
+  }
+  .title { font-size: 48px; }
+  .heroimage { width: 300px; height: 300px; }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content"
+      "follow"
+      "cvlabel"
+      "cvbtn"
+      "hero";
+    row-gap: 14px;
+    padding: 40px 24px;
+  }
+  .title { font-size: 40px; }
+  .description { font-size: 18px; }
+  .heroimage {
+    width: 280px;
+    height: 280px;
+    margin-top: 12px;
+    justify-self: start;
+  }
+}

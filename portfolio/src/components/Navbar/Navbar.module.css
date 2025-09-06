@@ -1,9 +1,11 @@
 @import "../../variables.css";
 
 *{
- text-decoration: none; }
+ text-decoration: none; 
+}
 
 .navbar{
+  font-family: var(--font-serif);
   position: relative;
   display: flex;
   align-items: center;
