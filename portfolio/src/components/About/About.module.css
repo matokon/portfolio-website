@@ -1,0 +1,45 @@
+@import "../../variables.css";
+
+.container {
+  padding: 48px 24px;
+  background: var(--bright-background);
+  color: var(--dark-text);
+}
+
+.heading {
+  margin: 0 0 24px 0;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.myphoto {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 830px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+  .myphoto {
+    max-width: 320px;
+    justify-self: center;
+    margin-bottom: 12px;
+  }
+}

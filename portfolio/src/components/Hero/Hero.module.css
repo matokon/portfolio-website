@@ -96,13 +96,8 @@
   transition: transform .18s ease;
 }
 
-.mycv a:hover {
-  transform: translateY(-2px);
-}
-
-.mycv a:active {
-  transform: translateY(0);
-}
+.mycv a:hover { transform: translateY(-2px); }
+.mycv a:active { transform: translateY(0); }
 
 .mycv img {
   display: block;
@@ -112,7 +107,6 @@
   user-select: none;
   -webkit-user-drag: none;
 }
-
 
 /* ZDJĘCIE PROFILOWE */
 .heroimage {
@@ -125,34 +119,34 @@
   justify-self: center;
 }
 
-/* RESPONSYWNOŚĆ */
-@media (max-width: 1024px) {
-  .container {
-    grid-template-columns: 1fr 360px;
-    column-gap: 40px;
-  }
-  .title { font-size: 48px; }
-  .heroimage { width: 300px; height: 300px; }
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 830px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-areas:
+      "hero"
       "content"
       "follow"
       "cvlabel"
-      "cvbtn"
-      "hero";
-    row-gap: 14px;
+      "cvbtn";
+    row-gap: 20px;
+    column-gap: 0;
     padding: 40px 24px;
   }
+
+  .content {
+    justify-self: center;
+    text-align: left; /* zmień na center, jeśli wolisz */
+    max-width: 560px;
+  }
+
   .title { font-size: 40px; }
   .description { font-size: 18px; }
+
   .heroimage {
-    width: 280px;
-    height: 280px;
-    margin-top: 12px;
-    justify-self: start;
+    justify-self: center;
+    width: clamp(120px, 45vw, 320px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto 12px;
   }
 }
