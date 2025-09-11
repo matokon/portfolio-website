@@ -1,0 +1,37 @@
+@import "../../variables.css";
+
+.card {
+  background: var(--bright-background);
+  color: var(--dark-text);
+  border-radius: 14px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  min-height: 220px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.06);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
+
+.title { margin: 0; font-size: 18px; font-weight: 800; letter-spacing: -.01em; }
+.desc  {
+  margin: 0; line-height: 1.45; font-size: 14px; opacity: .9;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 2px 0 0; padding: 0; list-style: none; }
+.tag  { padding: 3px 8px; border-radius: 999px; background: rgba(0,0,0,.08); font-size: 12px; font-weight: 600; }
+
+.actions { margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+.btn {
+  display: inline-block; text-decoration: none;
+  padding: 6px 10px; border-radius: 10px; font-weight: 700; font-size: 13px;
+  background: var(--dark-background); color: var(--bright-text);
+  transition: transform .15s ease, filter .15s ease;
+}
+.btn:hover  { transform: translateY(-2px); filter: brightness(1.05); }
+.btn:active { transform: translateY(0); }
+
+.btnGhost { background: transparent; color: var(--dark-text); border: 2px solid var(--dark-background); }

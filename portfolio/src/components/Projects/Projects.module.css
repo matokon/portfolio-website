@@ -1,0 +1,42 @@
+@import "../../variables.css";
+
+
+.section {
+  background: var(--dark-background);
+  padding: 56px 40px;
+  font-family: var(--font-sans);
+}
+
+.title {
+  font-family: var(--font-serif);
+  color: var(--bright-text);
+  text-align: center;
+  font-size: clamp(26px, 3.2vw, 34px);
+  font-weight: 900;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.01em;
+}
+
+
+.grid {
+  --tile-width: 1fr;
+  --gap: 24px;
+
+  display: grid;
+  gap: var(--gap);
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .grid { grid-template-columns: repeat(3, var(--tile-width)); }
+}
+/* tablet: 2 kolumny */
+@media (min-width: 700px) and (max-width: 1023.98px) {
+  .grid { grid-template-columns: repeat(2, var(--tile-width)); }
+}
+/* telefon: 1 kolumna */
+@media (max-width: 699.98px) {
+  .section { padding: 40px 20px; }
+  .grid    { grid-template-columns: 1fr; gap: 16px; }
+}
