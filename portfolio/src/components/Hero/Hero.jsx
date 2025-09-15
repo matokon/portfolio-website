@@ -8,10 +8,10 @@ import cvFile from "../../assets/Hero/okon-mateusz-cv.pdf";
 
 export const Hero = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="hero">
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hej, jestem Mateusz <span style={{ fontSize: '55px' }}>&#128075;</span>
+          Hej, jestem Mateusz 👋
         </h1>
         <p className={styles.description}>
           Jestem studentem Politechniki <br />

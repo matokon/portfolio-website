@@ -1,6 +1,5 @@
 @import "../../variables.css";
 
-/* GŁÓWNY CONTAINER */
 .container {
   background-color: var(--dark-background);
   max-width: 100%;
@@ -23,7 +22,6 @@
   font-family: var(--font-sans);
 }
 
-/* LEWA KOLUMNA */
 .content { grid-area: content; }
 
 .title {
@@ -41,7 +39,6 @@
   max-width: 560px;
 }
 
-/* ZAOBSERWUJ MNIE + IKONY W JEDNEJ LINII */
 .followme {
   grid-area: follow;
   display: flex;
@@ -71,7 +68,6 @@
   filter: brightness(1.1);
 }
 
-/* SEKCJA CV */
 .mycv {
   grid-area: cvlabel;
   display: flex;
@@ -108,7 +104,6 @@
   -webkit-user-drag: none;
 }
 
-/* ZDJĘCIE PROFILOWE */
 .heroimage {
   grid-area: hero;
   width: 340px;
@@ -135,7 +130,7 @@
 
   .content {
     justify-self: center;
-    text-align: left; /* zmień na center, jeśli wolisz */
+    text-align: left;
     max-width: 560px;
   }
 

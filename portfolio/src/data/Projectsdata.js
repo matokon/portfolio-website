@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     id: "p2",
-    title: "So Long",
+    title: "So_Long",
     description: "Prosta gra 2D napisana w C z wykorzystaniem MiniLibX – ćwiczenie grafiki i obsługi zdarzeń.",
     github: "https://github.com/matokon/so_long",
     demo: "https://example.com/weather",

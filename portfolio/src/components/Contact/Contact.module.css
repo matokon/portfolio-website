@@ -1,0 +1,27 @@
+@import "../../variables.css";
+
+.container {
+  background: var(--dark-background);
+  padding: 24px 16px;
+  color: #fff;
+  text-align: center;
+}
+.lead {
+    font-size: 17px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 20px auto 0;
+  max-width: 700px;
+}
+
+.links li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.95rem;
+}

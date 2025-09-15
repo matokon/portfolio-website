@@ -4,7 +4,7 @@ import styles from './About.module.css';
 
 export const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <h2 className={styles.title}>O mnie</h2>
 
       <div className={styles.wrap}>
@@ -12,17 +12,17 @@ export const About = () => {
 
         <article className={styles.text}>
           <p>
-            Poza nauką i pracą dużo radości daje mi aktywność fizyczna – szczególnie
-            siłownia i bieganie, które uczą mnie systematyczności i konsekwencji.
+            Poza nauką i pracą dużo radości daje mi wszelaka aktywność fizyczna jednak zdecydowanie najczęściej jest to
+            siłownia i bieganie, które uczą mnie systematyczności i dają ulgę od siedzącego trybu życia.
           </p>
           <p>
-            Moją pasją jest też nurkowanie – zdobyłem certyfikat OWD i uwielbiam
-            odkrywać podwodne przestrzenie, które pozwalają mi łączyć zamiłowanie do
-            przygód z potrzebą ciągłego poznawania nowych perspektyw.
+            Moją pasją jest nurkowanie oraz podróżowanie. 
+            Zdobyłem certyfikat OWD i uwielbiam eksplorować podwodne przestrzenie oraz odkrywać nowe miejsca na mapie.  
+            Dzięki temu mogę łączyć zamiłowanie do przygód z nieustanną potrzebą poznawania świata. 
+            Moim marzeniem jest zobaczyć i przeżyć w życiu jak najwięcej.
           </p>
           <p>
-            Dzięki temu nie boję się wyzwań i zawsze szukam sposobów, by poszerzać
-            swoje horyzonty.
+            Po prostu lubię próbować nowych rzeczy i sprawdzać, dokąd mnie to zaprowadzi.
           </p>
         </article>
       </div>

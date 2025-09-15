@@ -4,10 +4,10 @@
   padding: 48px 24px;
   background: var(--bright-background);
   color: var(--dark-text);
+  min-height: 550px;
 }
 
 .title {
-  
   margin: 0 0 24px 0;
   font-size: 30px;
   font-weight: 1000;
@@ -16,30 +16,37 @@
 
 .wrap {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 24px;
-  align-items: start;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+  align-items: center;
 }
+
 
 .myphoto {
   width: 100%;
-  max-width: 280px;
+  max-width: 350px;
   height: auto;
   border-radius: 16px;
   object-fit: cover;
 }
-
 .text {
-  font-size: 16px;
+  flex: 1;
+  max-width: 65ch;
+  font-size: 20px;
   line-height: 1.7;
+  text-align: justify;
 }
+.text p {
+  margin-bottom: 16px;
+}
+
 
 @media (max-width: 830px) {
   .wrap {
     grid-template-columns: 1fr;
   }
   .myphoto {
-    max-width: 320px;
+    max-width: 340px;
     justify-self: center;
     margin-bottom: 12px;
   }

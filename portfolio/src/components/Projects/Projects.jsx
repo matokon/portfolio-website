@@ -4,7 +4,7 @@ import { projects } from "../../data/projectsdata";
 
 export const Projects = () => {
   return (
-    <section id="projekty" aria-labelledby="projekty-heading" className={styles.section}>
+    <section id="projects" aria-labelledby="projekty-heading" className={styles.section}>
       <h2 id="projekty-heading" className={styles.title}>Moje projekty</h2>
       <div className={styles.grid} role="list">
         {projects.map(p => <ProjectCard key={p.id} {...p} />)}

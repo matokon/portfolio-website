@@ -1,12 +1,10 @@
 :root{
-    /* Colours */
     --bright-text: #E7E4D9;
     --dark-text: #3B3737;
     --bright-background: #E7E4D9;
     --dark-background: #635040;
     --darker-navbar-background: #4E3A29;
 
-    /* Fonts */
     --font-sans: 'DM Sans', sans-serif;
     --font-serif: 'Roboto Serif', serif;
 }
