@@ -12,11 +12,12 @@ export const About = () => {
 
         <article className={styles.text}>
           <p>
-            Poza nauką i pracą dużo radości daje mi wszelaka aktywność fizyczna jednak zdecydowanie najczęściej jest to
+            Poza nauką i pracą dużo radości daje mi wszelaka aktywność fizyczna. 
+            Jednak zdecydowanie najczęściej jest to
             siłownia i bieganie, które uczą mnie systematyczności i dają ulgę od siedzącego trybu życia.
           </p>
           <p>
-            Moją pasją jest nurkowanie oraz podróżowanie. 
+            Moją pasją jest nurkowanie oraz podróżowanie. <br />
             Zdobyłem certyfikat OWD i uwielbiam eksplorować podwodne przestrzenie oraz odkrywać nowe miejsca na mapie.  
             Dzięki temu mogę łączyć zamiłowanie do przygód z nieustanną potrzebą poznawania świata. 
             Moim marzeniem jest zobaczyć i przeżyć w życiu jak najwięcej.
