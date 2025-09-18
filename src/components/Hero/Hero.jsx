@@ -2,7 +2,7 @@ import React from 'react';
 import cvButton from '../../assets/Hero/cvButton.svg';
 import githubIcon from '../../assets/Hero/githubButton.svg';
 import linkedinIcon from '../../assets/Hero/linkedinButton.svg';
-import profilePhoto from '../../assets/Hero/profilePhoto.svg';
+import profilePhoto from '../../assets/Hero/profilePhoto.jpg';
 import styles from './Hero.module.css';
 import cvFile from "../../assets/Hero/okon-mateusz-cv.pdf";
 

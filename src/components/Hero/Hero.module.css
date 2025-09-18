@@ -15,9 +15,7 @@
     "cvbtn   hero";
   column-gap: 56px;
   row-gap: 16px;
-
   align-items: center;
-
   color: var(--bright-text);
   font-family: var(--font-sans);
 }
@@ -106,14 +104,14 @@
 
 .heroimage {
   grid-area: hero;
-  width: 340px;
-  height: 340px;
+  width: clamp(160px, 28vw, 340px);
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 30%;
   background: var(--bright-background);
   justify-self: center;
 }
-
 @media screen and (max-width: 830px) {
   .container {
     grid-template-columns: 1fr;
