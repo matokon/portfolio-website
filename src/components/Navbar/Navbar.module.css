@@ -29,13 +29,14 @@
   height: 30px;
   object-fit: contain;
   cursor: pointer;
+  fill: var(--bright-text);
 }
 
 .menuItems{
   display: flex;
   gap: 47px;
   list-style: none;
-  margin: 0;      /* reset domyślnego ul */
+  margin: 0;
   padding: 0;
 }
 
