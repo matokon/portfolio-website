@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Mateusz Okoń",
+    "description": "Portfolio i kontakt."
+  },
+  "hero": {
+    "title": "Hej, jestem Mateusz",
+    "lead": ""
+  },
+  "sections": {
+    "about": "O mnie",
+    "projects": "Projekty",
+    "education": "Edukacja",
+    "stack": "Stack",
+    "recommendations": "Rekomendacje",
+    "contact": "Kontakt"
+  },
+  "a11y": {
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "language": "Język"
+  }
+}
