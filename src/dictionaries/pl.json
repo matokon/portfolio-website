@@ -5,7 +5,11 @@
   },
   "hero": {
     "title": "Hej, jestem Mateusz",
-    "lead": ""
+    "lead": "Jestem studentem Politechniki Krakowskiej na kierunku informatyka i stale rozwijam swoje umiejętności programistyczne pracując w Shelfio.",
+    "followMe": "Zaobserwuj mnie na:",
+    "cvLabel": "Moje CV:",
+    "cvButton": "Pobierz moje CV",
+    "photoAlt": "Mateusz Okoń"
   },
   "sections": {
     "about": "O mnie",

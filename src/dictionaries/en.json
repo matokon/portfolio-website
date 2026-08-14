@@ -5,7 +5,11 @@
   },
   "hero": {
     "title": "Hi, I'm Mateusz",
-    "lead": ""
+    "lead": "I'm a Computer Science student at Cracow University of Technology, constantly growing my programming skills while working at Shelfio.",
+    "followMe": "Follow me on:",
+    "cvLabel": "My CV:",
+    "cvButton": "Download my CV",
+    "photoAlt": "Mateusz Okoń"
   },
   "sections": {
     "about": "About",

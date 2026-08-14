@@ -177,43 +177,45 @@ export default function Navbar({
           {logo}
         </motion.a>
 
-        <div className="hidden lg:flex items-center gap-9">
-          {sectionIds.map((id) => (
-            <a
-              key={id}
-              href={resolveHref(id)}
-              onClick={(event) => handleNavLinkClick(event, `#${id}`)}
-              className={`relative py-1 text-[15px] transition hover:text-foreground ${
-                active === id ? "text-foreground" : "text-muted"
-              }`}
+        <div className="flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-9">
+            {sectionIds.map((id) => (
+              <a
+                key={id}
+                href={resolveHref(id)}
+                onClick={(event) => handleNavLinkClick(event, `#${id}`)}
+                className={`relative py-1 text-[15px] transition hover:text-foreground ${
+                  active === id ? "text-foreground" : "text-muted"
+                }`}
+              >
+                {dict.sections[id]}
+                {active === id && (
+                  <motion.span
+                    layoutId="nav-underline"
+                    className="absolute -bottom-0.5 left-0 h-px w-full bg-foreground"
+                  />
+                )}
+              </a>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-2">
+            <LangToggle
+              lang={lang}
+              label={dict.a11y.language}
+              className="hidden sm:inline-flex"
+            />
+
+            <motion.button
+              variants={headerVariants}
+              className="lg:hidden p-2"
+              onClick={handleMenuClick}
+              aria-label={dict.a11y.openMenu}
+              aria-expanded={isOpen}
             >
-              {dict.sections[id]}
-              {active === id && (
-                <motion.span
-                  layoutId="nav-underline"
-                  className="absolute -bottom-0.5 left-0 h-px w-full bg-foreground"
-                />
-              )}
-            </a>
-          ))}
-        </div>
-
-        <div className="flex items-center gap-2">
-          <LangToggle
-            lang={lang}
-            label={dict.a11y.language}
-            className="hidden sm:inline-flex"
-          />
-
-          <motion.button
-            variants={headerVariants}
-            className="lg:hidden p-2"
-            onClick={handleMenuClick}
-            aria-label={dict.a11y.openMenu}
-            aria-expanded={isOpen}
-          >
-            <SvgMenu className="w-[22px] h-[22px]" />
-          </motion.button>
+              <SvgMenu className="w-[22px] h-[22px]" />
+            </motion.button>
+          </div>
         </div>
       </motion.div>
 

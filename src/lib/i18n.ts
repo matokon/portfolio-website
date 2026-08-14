@@ -14,15 +14,15 @@ export const sectionIds = [
 
 export type SectionId = (typeof sectionIds)[number];
 
-const dictionaries = {
-  pl: () => import("@/dictionaries/pl.json").then((mod) => mod.default),
-  en: () => import("@/dictionaries/en.json").then((mod) => mod.default),
-};
+import pl from "@/dictionaries/pl.json";
+import en from "@/dictionaries/en.json";
 
-export type Dictionary = Awaited<ReturnType<(typeof dictionaries)["pl"]>>;
+export type Dictionary = typeof pl;
+
+const dictionaries: Record<Locale, Dictionary> = { pl, en };
 
 export async function getDictionary(locale: Locale): Promise<Dictionary> {
-  return dictionaries[locale]();
+  return dictionaries[locale];
 }
 
 export function isLocale(value: string): value is Locale {

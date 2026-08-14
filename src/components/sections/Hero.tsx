@@ -3,10 +3,6 @@ import SvgGithub from "@/components/icons/Github";
 import SvgLinkedin from "@/components/icons/Linkedin";
 import type { Dictionary } from "@/lib/i18n";
 
-const GITHUB_URL = "https://github.com/matokon";
-const LINKEDIN_URL = "https://www.linkedin.com/in/mateusz-oko%C5%84-2458a6332/";
-const CV_URL = "/hero/okon-mateusz-cv.pdf";
-
 export default function Hero({ dict }: { dict: Dictionary }) {
   return (
     <section className="flex min-h-[calc(100vh-72px)] items-center px-6 lg:px-14">
@@ -47,7 +43,7 @@ export default function Hero({ dict }: { dict: Dictionary }) {
           <div className="mt-6 flex flex-wrap items-center gap-4">
             <span className="text-[15.5px] font-medium">{dict.hero.cvLabel}</span>
             <a
-              href={CV_URL}
+              href={"/hero/okon-mateusz-cv.pdf"}
               download="Mateusz_Okon_CV.pdf"
               className="rounded-2xl bg-bright-background px-8 py-4 text-[15.5px] font-medium text-dark-background transition duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-lg hover:shadow-black/20"
             >
