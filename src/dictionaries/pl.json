@@ -11,6 +11,51 @@
     "cvButton": "Pobierz moje CV",
     "photoAlt": "Mateusz Okoń"
   },
+  "about": {
+    "photoAlt": "diving photo",
+    "paragraphs": [
+      "Poza nauką i pracą dużo radości daje mi wszelaka aktywność fizyczna. Jednak zdecydowanie najczęściej jest to siłownia i bieganie, które uczą mnie systematyczności i dają ulgę od siedzącego trybu życia.",
+      "Moją pasją jest nurkowanie oraz podróżowanie. Mam certyfikat OWD i w sezonie nurkuję hobbystycznie uwielbiam eksplorować podwodne przestrzenie oraz odkrywać nowe miejsca na mapie. Dzięki temu mogę łączyć zamiłowanie do przygód z potrzebą poznawania świata. Moim marzeniem jest zobaczyć i przeżyć w życiu jak najwięcej.",
+      "Po prostu lubię próbować nowych rzeczy i sprawdzać, dokąd mnie to zaprowadzi. Po godzinach piszę aplikacje mobilne w React Native, a ostatnio wciągnęła mnie elektronika Arduino, ESP32 i własne małe układy."
+    ]
+  },
+  "education": {
+    "title": "Edukacja i\ndoświadczenie",
+    "types": {
+      "education": "Edukacja",
+      "work": "Praca"
+    },
+    "items": [
+      {
+        "type": "education",
+        "period": "czerwiec 2024 – obecnie",
+        "place": "Politechnika Krakowska",
+        "role": "Informatyka, studia inżynierskie",
+        "description": "Fundament teoretyczny: algorytmy i struktury danych, matematyka dyskretna, bazy danych, sieci komputerowe."
+      },
+      {
+        "type": "work",
+        "period": "listopad 2025 – obecnie",
+        "place": "Shelfio",
+        "role": "Junior Fullstack Developer",
+        "description": "Rozwijam funkcje po stronie frontendu i backendu w produkcyjnej aplikacji: JavaScript i TypeScript, React, Ruby on Rails i testy. Praca w zespole, code review i wdrożenia na produkcję."
+      },
+      {
+        "type": "education",
+        "period": "czerwiec 2024 – marzec 2026",
+        "place": "42 Warsaw",
+        "role": "Common Core",
+        "description": "Model peer-to-peer, bez wykładowców. Projekty w C i C++, wzajemna ocena kodu i praca w zespołach pod presją terminów."
+      },
+      {
+        "type": "work",
+        "period": "kwiecień 2025 – styczeń 2026",
+        "place": "Kodland",
+        "role": "Tutor programowania",
+        "description": "Uczyłem Pythona dzieci oraz młodzież – zajęcia online, własne materiały i regularny kontakt z rodzicami."
+      }
+    ]
+  },
   "sections": {
     "about": "O mnie",
     "projects": "Projekty",
