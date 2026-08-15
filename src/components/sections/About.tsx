@@ -19,7 +19,7 @@ export default function About({ dict }: { dict: Dictionary }) {
         </div>
 
         <div className="w-full lg:flex-1">
-          <h2 className="font-serif tracking-[0.02em] font-medium text-5xl lg:text-6xl">
+          <h2 className="font-serif tracking-[0.04em] font-medium text-5xl lg:text-6xl">
             {dict.sections.about}
           </h2>
 

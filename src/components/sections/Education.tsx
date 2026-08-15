@@ -7,7 +7,7 @@ export default function Education({ dict }: { dict: Dictionary }) {
       className="flex min-h-screen items-start bg-bright-background px-6 py-24 text-dark-background lg:px-14"
     >
      <div className="w-full max-w-[1300px] lg:flex-1">
-        <h2 className="whitespace-pre-line font-serif mb-5 text-5xl font-medium leading-[1.15] tracking-[0.02em] text-dark-title lg:text-6xl">
+        <h2 className="whitespace-pre-line font-serif mb-5 text-5xl font-medium leading-[1.15] tracking-[0.04em] text-dark-title lg:text-6xl">
           {dict.education.title}
         </h2>
         <ul className="relative">
@@ -28,8 +28,8 @@ export default function Education({ dict }: { dict: Dictionary }) {
                 <span className="size-[12px] rounded-full bg-accent" />
               </span>
 
-              <div className="bg-brighter-accent px-15 py-9 border border-[#38332A1A] rounded-3xl transition duration-200 hover:-translate-y-1 hover:border-[#38332A33] hover:shadow-lg hover:shadow-black/10">
-                <div className="flex items-center justify-between gap-4">
+              <div className="bg-brighter-accent px-6 py-8 sm:px-15 sm:py-9 border border-[#38332A1A] rounded-3xl transition duration-200 hover:-translate-y-1 hover:border-[#38332A33] hover:shadow-lg hover:shadow-black/10">
+                <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
                   <p className="rounded-full bg-[#DED5BE] text-[#2E2A22] text-xs font-medium px-3 py-1 uppercase font-mono tracking-[0.18em]">
                     {
                       dict.education.types[
@@ -37,7 +37,7 @@ export default function Education({ dict }: { dict: Dictionary }) {
                       ]
                     }
                   </p>
-                  <p className="text-sm text-[#2E2A22C2] font-mono">
+                  <p className="whitespace-nowrap font-mono text-xs text-[#2E2A22C2] sm:text-sm">
                     {item.period}
                   </p>
                 </div>

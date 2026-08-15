@@ -56,6 +56,10 @@
       }
     ]
   },
+  "stack": {
+    "title": "Czym pracuję\nna co dzień",
+    "lead": "Tylko narzędzia, których faktycznie używam w pracy i w projektach. Jestem jednak otwarty na naukę nowych technologii."
+  },
   "sections": {
     "about": "O mnie",
     "projects": "Projekty",

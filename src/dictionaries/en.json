@@ -56,6 +56,10 @@
       }
     ]
   },
+  "stack": {
+    "title": "What I work with\nevery day",
+    "lead": "Only the tools I actually use at work and in my own projects. That said, I'm always open to learning new technologies."
+  },
   "sections": {
     "about": "About",
     "projects": "Projects",
