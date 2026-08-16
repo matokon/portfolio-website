@@ -70,7 +70,18 @@
   },
   "stack": {
     "title": "What I work with\nevery day",
-    "lead": "Only the tools I actually use at work and in my own projects. That said, I'm always open to learning new technologies."
+    "lead": "Tools I actually use at work and in my own projects. That said, I'm always open to learning new technologies.",
+    "terminal": {
+      "file": "stack.sh",
+      "command": "mateusz --stack",
+      "rows": {
+        "languages": "languages",
+        "frontend": "frontend",
+        "mobile": "mobile",
+        "backend": "backend"
+      },
+      "focus": "current focus:"
+    }
   },
   "sections": {
     "about": "About",

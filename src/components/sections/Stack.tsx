@@ -9,7 +9,7 @@ import SvgDocker from "@/components/icons/Docker";
 import SvgGit from "@/components/icons/Git";
 import SvgC from "@/components/icons/C";
 import SvgMongodb from "@/components/icons/Mongodb";
-import SvgFigma from "@/components/icons/Figma";
+import SvgPostgresql from "@/components/icons/Postgresql";
 
 const technologies = [
   { name: "TypeScript", Icon: SvgTypescript },
@@ -23,8 +23,17 @@ const technologies = [
   { name: "Git", Icon: SvgGit },
   { name: "C", Icon: SvgC },
   { name: "MongoDB", Icon: SvgMongodb },
-  { name: "Figma", Icon: SvgFigma },
+  { name: "PostgreSQL", Icon: SvgPostgresql },
 ];
+
+const terminalRows = [
+  { key: "languages", value: "TypeScript JavaScript Ruby C" },
+  { key: "frontend", value: "React Next.js Tailwind CSS" },
+  { key: "mobile", value: "React Native Expo" },
+  { key: "backend", value: "Ruby on Rails" },
+] as const;
+
+const currentFocus = "React Native";
 
 export default function Stack({ dict }: { dict: Dictionary }) {
   return (
@@ -41,16 +50,48 @@ export default function Stack({ dict }: { dict: Dictionary }) {
           {dict.stack.lead}
         </p>
 
-        <ul className="mt-12 flex flex-wrap gap-3">
-          {technologies.map((item) => (
-            <li
-              key={item.name}
-              className="rounded-full border border-line px-4 py-2 font-mono text-sm text-bright-muted transition duration-200 hover:-translate-y-0.5 hover:border-muted hover:text-bright-background"
-            >
-              {item.name}
-            </li>
-          ))}
-        </ul>
+        <div className="mt-8 max-w-[52ch] overflow-hidden rounded-2xl border border-bright-background/10 bg-nav">
+          <div className="flex items-center gap-3 border-b border-bright-background/10 px-5 py-3.5">
+            <span aria-hidden className="flex gap-2">
+              <span className="size-3 rounded-full bg-accent-bright" />
+              <span className="size-3 rounded-full bg-muted/50" />
+              <span className="size-3 rounded-full bg-muted/25" />
+            </span>
+            <span className="font-mono text-sm text-bright-muted/60">
+              {dict.stack.terminal.file}
+            </span>
+          </div>
+
+          <div className="px-5 py-5 font-mono text-sm">
+            <p className="flex gap-2">
+              <span className="text-accent-bright">$</span>
+              <span>{dict.stack.terminal.command}</span>
+            </p>
+
+            <dl className="mt-4 space-y-2.5 pl-5">
+              {terminalRows.map((row) => (
+                <div key={row.key} className="flex flex-wrap gap-x-4">
+                  <dt className="w-24 shrink-0 text-bright-muted/70">
+                    {dict.stack.terminal.rows[row.key]}
+                  </dt>
+                  <dd>{row.value}</dd>
+                </div>
+              ))}
+            </dl>
+
+            <p className="mt-5 flex flex-wrap items-center gap-x-3 border-t border-bright-background/10 pt-5 pl-5">
+              <span className="text-accent-bright">
+                {dict.stack.terminal.focus}
+              </span>
+              <span>{currentFocus}</span>
+              <span
+                aria-hidden
+                className="inline-block h-4 w-2 animate-caret bg-accent-bright align-middle"
+              />
+            </p>
+          </div>
+        </div>
+
       </div>
       <ul className="grid grid-cols-3 gap-x-6 gap-y-8 sm:grid-cols-4 lg:flex-1">
         {technologies.map((item, index) => (
@@ -62,8 +103,8 @@ export default function Stack({ dict }: { dict: Dictionary }) {
             }}
             className="flex animate-bob flex-col items-center gap-3"
           >
-            <span className="flex size-24 items-center justify-center rounded-full border border-black/10 bg-bright-background shadow-[0_18px_34px_-20px_rgba(8,5,1,.8)] transition-transform duration-300 ease-out hover:scale-110">
-              <item.Icon className="size-11 text-dark-title" />
+            <span className="flex size-28 items-center justify-center rounded-full border border-black/10 bg-bright-background shadow-[0_18px_34px_-20px_rgba(8,5,1,.8)] transition-transform duration-300 ease-out hover:scale-110">
+              <item.Icon className="size-13 text-dark-title" />
             </span>
             <span className="font-mono text-[13px] text-bright-muted">
               {item.name}
