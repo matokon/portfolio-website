@@ -51,8 +51,8 @@ export default function Projects({ dict }: { dict: Dictionary }) {
       id="projects"
       className="flex flex-col gap-16 px-6 py-20 lg:px-14"
     >
-      <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between lg:gap-16">
-        <h2 className="whitespace-pre-line font-serif mb-5 text-5xl font-medium leading-[1.15] tracking-[0.04em] lg:text-6xl">
+      <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between lg:gap-16">
+        <h2 className="whitespace-pre-line font-serif text-5xl font-medium leading-[1.15] tracking-[0.04em] lg:text-6xl">
           {dict.projects.title}
         </h2>
         <p className="whitespace-pre-line leading-relaxed text-bright-muted">

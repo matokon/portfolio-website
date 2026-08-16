@@ -91,6 +91,17 @@
     "recommendations": "Rekomendacje",
     "contact": "Kontakt"
   },
+  "recommendations": {
+    "title": "Co mówią osoby,\nz którymi pracuję",
+    "lead": "Opinie z zespołu w Shelfio i z Kodland.",
+    "readMore": "Czytaj całość",
+    "close": "Zamknij",
+    "quotes": {
+      "galas": "O Mateuszu mogę wypowiadać się tylko pozytywnie. Trochę obawiałem się, jak to z nim będzie ze względu na młody wiek, ale zupełnie niepotrzebnie. To jest osoba, która wykona każde zadanie. Mówisz mu, że coś jest do załatwienia, a on na następny dzień mówi, że gotowe. Bez zbędnych pytań. Potrafi wziąć na siebie odpowiedzialność i podjąć decyzje samodzielnie. To sprawia, że poradzi sobie w każdej pracy. W firmie był odpowiedzialny za zadania logistyczno-techniczne oraz, w wolnych chwilach, programistyczne. Typowy człowiek orkiestra. Moim zdaniem ma zadatki na to, aby w przyszłości prowadzić własny zespół.\n\nProgramistycznie jest dopiero na początku swojej drogi, jednak jestem pewny, że jeśli zdecyduje się pójść w tę stronę, to na pewno będzie świetnym programistą. Szybko się uczy i wykazuje 100% zaangażowania.\nMoim zdaniem jest doskonałym kandydatem na juniora, ale za kilka miesięcy pewnie będzie już bardziej mid-developerem.",
+      "klosowski": "Współpraca z Mateuszem była dla mnie bardzo wartościowym doświadczeniem. Od początku wyróżniał się jasną komunikacją i dużym zaangażowaniem w powierzone zadania. Dbał o szczegóły, pilnował terminów i jednocześnie potrafił proponować własne rozwiązania, które usprawniały pracę zespołu.\nNa przestrzeni czasu zauważyłem wyraźny rozwój jego kompetencji, coraz pewniej podejmował decyzje i brał odpowiedzialność za realizację zadań. Nigdy nie było mowy o spadku jakości, wręcz przeciwnie - jego praca stawała się coraz bardziej dopracowana i świadoma.\nMateusz to osoba, na której można polegać, jest profesjonalny, konsekwentny i nastawiony na jakość. Z pełnym przekonaniem polecam go jako wartościowego współpracownika w każdym zespole.",
+      "placeholder": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
   "footer": {
     "backToTop": "Na górę"
   },

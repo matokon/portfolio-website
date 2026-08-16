@@ -91,6 +91,17 @@
     "recommendations": "Recommendations",
     "contact": "Contact"
   },
+  "recommendations": {
+    "title": "What the people\nI work with say",
+    "lead": "Feedback from the team at Shelfio and from Kodland.",
+    "readMore": "Read in full",
+    "close": "Close",
+    "quotes": {
+      "galas": "I can only speak positively about Mateusz. I was a little worried about how it would work out given his young age, but that worry was entirely unnecessary. He is someone who will get any task done. You tell him something needs handling and the next day he tells you it's ready. No unnecessary questions. He is able to take responsibility and make decisions on his own. That is what will let him cope in any job. At the company he was responsible for logistics and technical tasks, and for programming work whenever he had a spare moment. A true jack of all trades. In my view he has what it takes to lead his own team one day.\n\nAs a programmer he is only at the beginning of his path, but I am certain that if he decides to go that way he will make an excellent developer. He learns fast and gives 100% commitment.\nIn my opinion he is a perfect junior candidate, though in a few months he will probably be closer to a mid-level developer.",
+      "klosowski": "Working with Mateusz was a very valuable experience for me. From the start he stood out with clear communication and real commitment to the tasks he was given. He paid attention to detail, kept to deadlines and at the same time was able to propose his own solutions that made the team's work easier.\nOver time I noticed a clear growth in his competence - he made decisions with more confidence and took responsibility for getting things done. There was never any drop in quality, quite the opposite: his work became more and more polished and thoughtful.\nMateusz is someone you can rely on - professional, consistent and focused on quality. I wholeheartedly recommend him as a valuable colleague on any team.",
+      "placeholder": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
   "footer": {
     "backToTop": "Back to top"
   },
