@@ -91,6 +91,9 @@
     "recommendations": "Recommendations",
     "contact": "Contact"
   },
+  "footer": {
+    "backToTop": "Back to top"
+  },
   "a11y": {
     "openMenu": "Open menu",
     "closeMenu": "Close menu",

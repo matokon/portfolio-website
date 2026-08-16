@@ -28,7 +28,7 @@ const technologies = [
 
 const terminalRows = [
   { key: "languages", value: "TypeScript JavaScript Ruby C" },
-  { key: "frontend", value: "React Next.js Tailwind CSS" },
+  { key: "frontend", value: "React Next.js Tailwind" },
   { key: "mobile", value: "React Native Expo" },
   { key: "backend", value: "Ruby on Rails" },
 ] as const;

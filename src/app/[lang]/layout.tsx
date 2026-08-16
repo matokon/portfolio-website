@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
 
 const geistSans = Geist({
@@ -60,6 +61,7 @@ export default async function RootLayout({
         <SmoothScroll>
           <Navbar lang={lang} dict={dict} />
           {children}
+          <Footer dict={dict} />
         </SmoothScroll>
       </body>
     </html>
