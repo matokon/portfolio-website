@@ -19,6 +19,18 @@
       "Po prostu lubię próbować nowych rzeczy i sprawdzać, dokąd mnie to zaprowadzi. Po godzinach piszę aplikacje mobilne w React Native, a ostatnio wciągnęła mnie elektronika Arduino, ESP32 i własne małe układy."
     ]
   },
+  "projects": {
+    "title": "Moje projekty",
+    "lead": "Dziś głównie React i React Native. Wcześniej C i C++ -\n programowanie systemowe i algorytmy.",
+    "descriptions": {
+      "philo": "Symulacja problemu ucztujących filozofów: wątki, mutexy i semafory bez zakleszczeń i wyścigów.",
+      "minishell": "Projekt grupowy w dwie osoby: powłoka w stylu Bash - parser, pipe'y, przekierowania, zmienne środowiskowe i wbudowane polecenia.",
+      "gymbox": "Landing page dla GymBox - strona wizytówka siłowni, wdrożona pod adresem gymbox.pl.",
+      "warehouse": "Aplikacja mobilna do zarządzania magazynem: React Native z Expo na froncie, Ruby on Rails jako backend.",
+      "pushswap": "Sortowanie stosów najmniejszą możliwą liczbą operacji - analiza złożoności i optymalizacja.",
+      "portfolio": "Ta strona - napisana w Next.js, projekt prowadzony od Figmy aż do wdrożenia."
+    }
+  },
   "education": {
     "title": "Edukacja i\ndoświadczenie",
     "types": {
@@ -28,31 +40,31 @@
     "items": [
       {
         "type": "education",
-        "period": "czerwiec 2024 – obecnie",
+        "period": "czerwiec 2024 - obecnie",
         "place": "Politechnika Krakowska",
         "role": "Informatyka, studia inżynierskie",
         "description": "Fundament teoretyczny: algorytmy i struktury danych, matematyka dyskretna, bazy danych, sieci komputerowe."
       },
       {
         "type": "work",
-        "period": "listopad 2025 – obecnie",
+        "period": "listopad 2025 - obecnie",
         "place": "Shelfio",
         "role": "Junior Fullstack Developer",
         "description": "Rozwijam funkcje po stronie frontendu i backendu w produkcyjnej aplikacji: JavaScript i TypeScript, React, Ruby on Rails i testy. Praca w zespole, code review i wdrożenia na produkcję."
       },
       {
         "type": "education",
-        "period": "czerwiec 2024 – marzec 2026",
+        "period": "czerwiec 2024 - marzec 2026",
         "place": "42 Warsaw",
         "role": "Common Core",
         "description": "Model peer-to-peer, bez wykładowców. Projekty w C i C++, wzajemna ocena kodu i praca w zespołach pod presją terminów."
       },
       {
         "type": "work",
-        "period": "kwiecień 2025 – styczeń 2026",
+        "period": "kwiecień 2025 - styczeń 2026",
         "place": "Kodland",
         "role": "Tutor programowania",
-        "description": "Uczyłem Pythona dzieci oraz młodzież – zajęcia online, własne materiały i regularny kontakt z rodzicami."
+        "description": "Uczyłem Pythona dzieci oraz młodzież - zajęcia online, własne materiały i regularny kontakt z rodzicami."
       }
     ]
   },

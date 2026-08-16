@@ -15,9 +15,21 @@
     "photoAlt": "diving photo",
     "paragraphs": [
       "Outside of studying and work, physical activity is what gives me a lot of joy. Most often that means the gym and running, which teach me consistency and give me a break from a sedentary lifestyle.",
-      "My passions are diving and travelling. I hold an OWD certificate and dive recreationally during the season – I love exploring underwater spaces and discovering new places on the map. It lets me combine a taste for adventure with the need to get to know the world. My dream is to see and experience as much as I can.",
-      "I simply enjoy trying new things and seeing where they take me. After hours I build mobile apps in React Native, and lately I've been drawn into electronics – Arduino, ESP32 and my own small circuits."
+      "My passions are diving and travelling. I hold an OWD certificate and dive recreationally during the season - I love exploring underwater spaces and discovering new places on the map. It lets me combine a taste for adventure with the need to get to know the world. My dream is to see and experience as much as I can.",
+      "I simply enjoy trying new things and seeing where they take me. After hours I build mobile apps in React Native, and lately I've been drawn into electronics - Arduino, ESP32 and my own small circuits."
     ]
+  },
+  "projects": {
+    "title": "My projects",
+    "lead": "Today mostly React and React Native. Earlier C and C++ -\n systems programming and algorithms.",
+    "descriptions": {
+      "philo": "A simulation of the dining philosophers problem: threads, mutexes and semaphores with no deadlocks or race conditions.",
+      "minishell": "A two-person team project: a Bash-style shell - parser, pipes, redirections, environment variables and builtin commands.",
+      "gymbox": "Landing page for GymBox - a showcase site for a gym, deployed at gymbox.pl.",
+      "warehouse": "A mobile warehouse management app: React Native with Expo on the front end, Ruby on Rails as the backend.",
+      "pushswap": "Sorting stacks in the smallest possible number of operations - complexity analysis and optimisation.",
+      "portfolio": "This very site - built in Next.js, taken from Figma all the way to deployment."
+    }
   },
   "education": {
     "title": "Education &\nexperience",
@@ -28,31 +40,31 @@
     "items": [
       {
         "type": "education",
-        "period": "June 2024 – present",
+        "period": "June 2024 - present",
         "place": "Cracow University of Technology",
         "role": "Computer Science, engineering degree",
         "description": "Theoretical foundation: algorithms and data structures, discrete mathematics, databases, computer networks."
       },
       {
         "type": "work",
-        "period": "November 2025 – present",
+        "period": "November 2025 - present",
         "place": "Shelfio",
         "role": "Junior Fullstack Developer",
         "description": "I develop frontend and backend features in a production application: JavaScript and TypeScript, React, Ruby on Rails and tests. Teamwork, code review and production deployments."
       },
       {
         "type": "education",
-        "period": "June 2024 – March 2026",
+        "period": "June 2024 - March 2026",
         "place": "42 Warsaw",
         "role": "Common Core",
         "description": "Peer-to-peer model, no lecturers. Projects in C and C++, peer code review and teamwork under deadline pressure."
       },
       {
         "type": "work",
-        "period": "April 2025 – January 2026",
+        "period": "April 2025 - January 2026",
         "place": "Kodland",
         "role": "Programming tutor",
-        "description": "I taught Python to children and teenagers – online classes, my own materials and regular contact with parents."
+        "description": "I taught Python to children and teenagers - online classes, my own materials and regular contact with parents."
       }
     ]
   },

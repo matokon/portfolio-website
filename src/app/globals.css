@@ -9,6 +9,7 @@
   --bright-muted: #f2ecdcc2;
   --line: #5b4f40;
   --accent: #8F4A22;
+  --accent-bright: #E9A874;
   --dark-title: #2E2A22;
   --brighter-accent: #F4EEE0;
 }
@@ -23,10 +24,11 @@
   --color-bright-muted: var(--bright-muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
+  --color-accent-bright: var(--accent-bright);
   --color-dark-title: var(--dark-title);
   --color-brighter-accent: var(--brighter-accent);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-jetbrains-mono);
   --font-serif: var(--font-instrument-serif);
   --animate-bob: bob 3.4s ease-in-out infinite;
 }
