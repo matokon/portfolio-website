@@ -102,6 +102,37 @@
       "placeholder": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   },
+  "contact": {
+    "title": "Porozmawiajmy\no współpracy.",
+    "lead": "Napisz – odpowiadam w ciągu jednego dnia. Chętnie porozmawiam o projekcie, współpracy albo stałej pracy.",
+    "details": {
+      "email": "E-mail",
+      "phone": "Telefon",
+      "location": "Lokalizacja"
+    },
+    "location": "Kraków, Polska",
+    "form": {
+      "name": {
+        "label": "Imię",
+        "placeholder": "Jak się nazywasz?"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "twoj@email.com"
+      },
+      "message": {
+        "label": "Wiadomość",
+        "placeholder": "Napisz kilka słów o tym, czego szukasz…"
+      },
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłam…",
+      "status": {
+        "ok": "Dzięki! Wiadomość poszła — odezwę się w ciągu jednego dnia.",
+        "invalid": "Sprawdź pola — coś jest puste albo e-mail wygląda nieprawidłowo.",
+        "failed": "Nie udało się wysłać. Spróbuj ponownie albo napisz bezpośrednio na maila."
+      }
+    }
+  },
   "footer": {
     "backToTop": "Na górę"
   },
