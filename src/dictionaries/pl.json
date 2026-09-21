@@ -27,7 +27,7 @@
       "minishell": "Projekt grupowy w dwie osoby: powłoka w stylu Bash - parser, pipe'y, przekierowania, zmienne środowiskowe i wbudowane polecenia.",
       "gymbox": "Landing page dla GymBox - strona wizytówka siłowni, wdrożona pod adresem gymbox.pl.",
       "warehouse": "Aplikacja mobilna do zarządzania magazynem: React Native z Expo na froncie, Ruby on Rails jako backend.",
-      "pushswap": "Sortowanie stosów najmniejszą możliwą liczbą operacji - analiza złożoności i optymalizacja.",
+      "muse": "Aplikacja mobilna ułatwiająca składanie outfitów z posiadanych ubrań. Pozwala dodawać zdjęcia, kategoryzować garderobę i zapisywać ulubione stylizacje.",
       "portfolio": "Ta strona - napisana w Next.js, projekt prowadzony od Figmy aż do wdrożenia."
     }
   },

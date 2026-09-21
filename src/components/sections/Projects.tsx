@@ -2,10 +2,10 @@ import type { Dictionary } from "@/lib/i18n";
 
 const projects = [
   {
-    id: "philo",
-    name: "Philo",
-    tags: ["C", "Threads", "Mutex", "Linux"],
-    href: "https://github.com/matokon/philosophers",
+    id: "muse",
+    name: "Muse",
+    tags: ["React Native", "Expo", "Ruby on Rails", "Mobile"],
+    href: "https://github.com/matokon/muse",
     linkLabel: "GitHub",
   },
   {
@@ -25,15 +25,15 @@ const projects = [
   {
     id: "warehouse",
     name: "Warehouse App",
-    tags: ["React Native", "Expo", "Rails", "Mobile"],
-    href: "https://github.com/matokon/warehouse-app",
+    tags: ["React Native", "Expo", "Ruby on Rails", "Mobile"],
+    href: "https://github.com/matokon/warehouse_app",
     linkLabel: "GitHub",
   },
   {
-    id: "pushswap",
-    name: "Push_swap",
-    tags: ["C", "Algorithms", "Sorting", "Optimization"],
-    href: "https://github.com/matokon/push_swap",
+    id: "philo",
+    name: "Philo",
+    tags: ["C", "Threads", "Mutex", "Linux"],
+    href: "https://github.com/matokon/philo",
     linkLabel: "GitHub",
   },
   {

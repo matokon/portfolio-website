@@ -27,7 +27,7 @@
       "minishell": "A two-person team project: a Bash-style shell - parser, pipes, redirections, environment variables and builtin commands.",
       "gymbox": "Landing page for GymBox - a showcase site for a gym, deployed at gymbox.pl.",
       "warehouse": "A mobile warehouse management app: React Native with Expo on the front end, Ruby on Rails as the backend.",
-      "pushswap": "Sorting stacks in the smallest possible number of operations - complexity analysis and optimisation.",
+      "muse": "Mobile app that makes it easier to put together outfits from the clothes you already own. It lets you add photos, categorize your wardrobe, and save your favorite looks.",
       "portfolio": "This very site - built in Next.js, taken from Figma all the way to deployment."
     }
   },
