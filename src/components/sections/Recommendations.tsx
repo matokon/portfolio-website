@@ -9,17 +9,23 @@ const people = [
     company: "Shelfio",
   },
   {
+    id: "jedrusik",
+    name: "Tomasz Jędrusik",
+    role: "Product Manager",
+    company: "Shelfio",
+  },
+  {
+    id: "pk",
+    name: "Piotr Klupa",
+    role: "Senior Software Engineer",
+    company: "Shelfio",
+  },
+  {
     id: "klosowski",
     name: "Mario Klosowski",
     role: "Team Leader",
     company: "Kodland",
-  },
-  {
-    id: "placeholder",
-    name: "Imię Nazwisko",
-    role: "Koordynator",
-    company: "Kodland",
-  },
+  }
 ] as const;
 
 export default function Recommendations({ dict }: { dict: Dictionary }) {
