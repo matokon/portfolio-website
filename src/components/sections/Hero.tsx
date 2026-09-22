@@ -1,9 +1,23 @@
+"use client";
+
 import Image from "next/image";
+import { useParams } from "next/navigation";
 import SvgGithub from "@/components/icons/Github";
 import SvgLinkedin from "@/components/icons/Linkedin";
 import type { Dictionary } from "@/lib/i18n";
 
 export default function Hero({ dict }: { dict: Dictionary }) {
+  const params = useParams();
+  const lang = (params?.lang as string) ?? "pl";
+
+  const cvHref =
+    lang === "en"
+      ? "/hero/Okon-Mateusz-resume.pdf"
+      : "/hero/Okon-Mateusz-CV.pdf";
+
+  const cvDownload =
+    lang === "en" ? "Mateusz_Okon_Resume.pdf" : "Mateusz_Okon_CV.pdf";
+
   return (
     <section className="flex min-h-[calc(100vh-72px)] items-center px-6 lg:px-14">
       <div className="flex w-full flex-col-reverse items-center gap-12 lg:flex-row lg:justify-between lg:gap-16">
@@ -17,7 +31,9 @@ export default function Hero({ dict }: { dict: Dictionary }) {
           </p>
 
           <div className="mt-12 flex flex-wrap items-center gap-4">
-            <span className="text-[15.5px] font-medium">{dict.hero.followMe}</span>
+            <span className="text-[15.5px] font-medium">
+              {dict.hero.followMe}
+            </span>
             <div className="flex items-center gap-3">
               <a
                 href={"https://github.com/matokon"}
@@ -41,10 +57,12 @@ export default function Hero({ dict }: { dict: Dictionary }) {
           </div>
 
           <div className="mt-6 flex flex-wrap items-center gap-4">
-            <span className="text-[15.5px] font-medium">{dict.hero.cvLabel}</span>
+            <span className="text-[15.5px] font-medium">
+              {dict.hero.cvLabel}
+            </span>
             <a
-              href={"/hero/okon-mateusz-cv.pdf"}
-              download="Mateusz_Okon_CV.pdf"
+              href={cvHref}
+              download={cvDownload}
               className="rounded-2xl bg-bright-background px-8 py-4 text-[15.5px] font-medium text-dark-background transition duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-lg hover:shadow-black/20"
             >
               {dict.hero.cvButton}
