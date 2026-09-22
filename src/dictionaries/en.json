@@ -106,7 +106,7 @@
   },
   "contact": {
     "title": "Let's talk about\nworking together.",
-    "lead": "Drop me a line – I reply within a day. Happy to talk about a project, a collaboration or a full-time role.",
+    "lead": "Drop me a line - I reply within a day. Happy to talk about a project, a collaboration or a full-time role.",
     "details": {
       "email": "E-mail",
       "phone": "Phone",
@@ -120,7 +120,7 @@
       },
       "email": {
         "label": "E-mail",
-        "placeholder": "your@email.com"
+        "placeholder": "johnpork@email.com"
       },
       "message": {
         "label": "Message",
@@ -129,7 +129,7 @@
       "submit": "Send message",
       "sending": "Sending…",
       "status": {
-        "ok": "Thanks! Your message is on its way — I'll get back to you within a day.",
+        "ok": "Thanks! Your message is on its way - I'll get back to you within a day.",
         "invalid": "Check the fields — something is empty or the e-mail looks off.",
         "failed": "Sending failed. Try again, or e-mail me directly."
       }
