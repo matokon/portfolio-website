@@ -21,7 +21,7 @@
   },
   "projects": {
     "title": "Moje projekty",
-    "lead": "Dziś głównie React i React Native. Wcześniej C i C++ -\n programowanie systemowe i algorytmy.",
+    "lead": "Dziś głównie React i React Native.\n Wcześniej C i C++ - programowanie systemowe i algorytmy.",
     "descriptions": {
       "philo": "Symulacja problemu ucztujących filozofów: wątki, mutexy i semafory bez zakleszczeń i wyścigów.",
       "minishell": "Projekt grupowy w dwie osoby: powłoka w stylu Bash - parser, pipe'y, przekierowania, zmienne środowiskowe i wbudowane polecenia.",

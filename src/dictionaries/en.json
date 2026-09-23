@@ -21,7 +21,7 @@
   },
   "projects": {
     "title": "My projects",
-    "lead": "Today mostly React and React Native. Earlier C and C++ -\n systems programming and algorithms.",
+    "lead": "Today mostly React and React Native.\n Earlier C and C++ - systems programming and algorithms.",
     "descriptions": {
       "philo": "A simulation of the dining philosophers problem: threads, mutexes and semaphores with no deadlocks or race conditions.",
       "minishell": "A two-person team project: a Bash-style shell - parser, pipes, redirections, environment variables and builtin commands.",
