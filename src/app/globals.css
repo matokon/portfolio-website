@@ -113,6 +113,7 @@ body {
   background: var(--dark-background);
   color: var(--bright-background);
   font-family: var(--font-sans), system-ui, sans-serif;
+  overscroll-behavior-y: none;
 }
 
 html.lenis,
