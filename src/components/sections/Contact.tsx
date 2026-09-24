@@ -32,8 +32,8 @@ export default function Contact({ dict }: { dict: Dictionary }) {
       id="contact"
       className="bg-[radial-gradient(125%_110%_at_12%_0%,#5A4632_0%,#4C3B2A_45%,#3E301F_100%)] py-24 2xl:py-32 min-[1920px]:py-36 min-[2060px]:py-40"
     >
-      <div className="grid w-full items-start gap-14 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:gap-20 2xl:gap-24 min-[1920px]:gap-28 min-[2060px]:gap-32">
-        <div>
+      <div className="grid w-full grid-cols-1 items-start gap-14 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:gap-20 2xl:gap-24 min-[1920px]:gap-28 min-[2060px]:gap-32">
+        <div className="min-w-0">
           <h2 className="whitespace-pre-line font-serif text-5xl font-medium leading-[1.15] tracking-[0.04em] lg:text-6xl 2xl:text-7xl min-[1920px]:text-[5.5rem] min-[2060px]:text-[6rem]">
             {dict.contact.title}
           </h2>
@@ -46,17 +46,20 @@ export default function Contact({ dict }: { dict: Dictionary }) {
             {details.map((detail) => (
               <div
                 key={detail.label}
-                className="flex items-center gap-6 border-b border-line/70 py-5 2xl:gap-8 2xl:py-6 min-[1920px]:gap-10 min-[1920px]:py-7 min-[2060px]:gap-12 min-[2060px]:py-8"
+                className="flex flex-col gap-2 border-b border-line/70 py-5 sm:flex-row sm:items-center sm:gap-6 2xl:gap-8 2xl:py-6 min-[1920px]:gap-10 min-[1920px]:py-7 min-[2060px]:gap-12 min-[2060px]:py-8"
               >
                 <dt
-                  className={`flex min-w-[9.5rem] shrink-0 items-center gap-3 ${labelClass} 2xl:min-w-[11rem] min-[1920px]:min-w-[12rem] min-[2060px]:min-w-[13rem]`}
+                  className={`flex shrink-0 items-center gap-3 sm:min-w-[8rem] lg:min-w-[9.5rem] 2xl:min-w-[11rem] min-[1920px]:min-w-[12rem] min-[2060px]:min-w-[13rem] ${labelClass}`}
                 >
-                  <span aria-hidden className="text-[10px] text-accent-bright 2xl:text-[11px] min-[1920px]:text-xs min-[2060px]:text-[13px]">
+                  <span
+                    aria-hidden
+                    className="text-[10px] text-accent-bright 2xl:text-[11px] min-[1920px]:text-xs min-[2060px]:text-[13px]"
+                  >
                     ◆
                   </span>
                   {detail.label}
                 </dt>
-                <dd className="m-0 text-[17px] 2xl:text-[19px] min-[1920px]:text-[21px] min-[2060px]:text-[23px]">
+                <dd className="m-0 break-all text-[17px] 2xl:text-[19px] min-[1920px]:text-[21px] min-[2060px]:text-[23px]">
                   {detail.href ? (
                     <a
                       href={detail.href}
@@ -73,7 +76,7 @@ export default function Contact({ dict }: { dict: Dictionary }) {
           </dl>
         </div>
 
-        <div className="rounded-[2rem] border border-bright-background/10 bg-bright-background/[0.045] p-7 shadow-2xl shadow-black/15 sm:p-10 2xl:rounded-[2.5rem] 2xl:p-12 min-[1920px]:rounded-[3rem] min-[1920px]:p-14 min-[2060px]:rounded-[3.5rem] min-[2060px]:p-16">
+        <div className="min-w-0 rounded-[2rem] border border-bright-background/10 bg-bright-background/[0.045] p-7 shadow-2xl shadow-black/15 sm:p-10 2xl:rounded-[2.5rem] 2xl:p-12 min-[1920px]:rounded-[3rem] min-[1920px]:p-14 min-[2060px]:rounded-[3.5rem] min-[2060px]:p-16">
           <ContactForm labels={dict.contact.form} />
         </div>
       </div>
