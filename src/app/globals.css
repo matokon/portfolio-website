@@ -127,3 +127,9 @@ html.lenis body {
 section[id] {
   scroll-margin-top: 72px;
 }
+
+html,
+body {
+  overflow-x: clip;
+  max-width: 100%;
+}
