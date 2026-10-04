@@ -3,15 +3,26 @@ export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = "pl";
 
+// all sections
 export const sectionIds = [
   "about",
   "projects",
   "education",
   "stack",
-  "recommendations"
+  "recommendations",
+  "contact",
 ] as const;
 
 export type SectionId = (typeof sectionIds)[number];
+
+// without contact
+export const navSectionIds = [
+  "about",
+  "projects",
+  "education",
+  "stack",
+  "recommendations",
+] as const satisfies readonly SectionId[];
 
 import pl from "@/dictionaries/pl.json";
 import en from "@/dictionaries/en.json";

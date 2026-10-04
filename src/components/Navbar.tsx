@@ -7,7 +7,13 @@ import { motion, type Variants } from "framer-motion";
 import { useLenis } from "lenis/react";
 import SvgMenu from "./icons/Menu";
 import SvgClose from "./icons/Close";
-import { locales, sectionIds, type Dictionary, type Locale } from "@/lib/i18n";
+import {
+  locales,
+  sectionIds,
+  navSectionIds,
+  type Dictionary,
+  type Locale,
+} from "@/lib/i18n";
 
 const headerVariants: Variants = {
   opened: {
@@ -179,7 +185,7 @@ export default function Navbar({
 
         <div className="flex items-center gap-8">
           <div className="hidden lg:flex items-center gap-9">
-            {sectionIds.map((id) => (
+            {navSectionIds.map((id) => (
               <a
                 key={id}
                 href={resolveHref(id)}
@@ -243,7 +249,7 @@ export default function Navbar({
           variants={navigationVariants}
           className="flex flex-col flex-1 gap-1 pt-20"
         >
-          {sectionIds.map((id) => (
+          {navSectionIds.map((id) => (
             <a
               key={id}
               href={resolveHref(id)}

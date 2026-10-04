@@ -88,7 +88,8 @@
     "projects": "Projects",
     "education": "Education",
     "stack": "Stack",
-    "recommendations": "Recommendations"
+    "recommendations": "Recommendations",
+    "contact": "Contact"
   },
   "recommendations": {
     "title": "What the people\nI work with say",
