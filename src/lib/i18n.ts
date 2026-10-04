@@ -8,8 +8,7 @@ export const sectionIds = [
   "projects",
   "education",
   "stack",
-  "recommendations",
-  "contact",
+  "recommendations"
 ] as const;
 
 export type SectionId = (typeof sectionIds)[number];
