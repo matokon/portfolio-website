@@ -22,7 +22,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <Education dict={dict} />
       <Stack dict={dict} />
       <Recommendations dict={dict} />
-      <Contact dict={dict} />
+      {/* <Contact dict={dict} /> */}
     </main>
   );
 }
